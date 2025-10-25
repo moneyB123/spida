@@ -1,7 +1,8 @@
 # spida
 A repo for my spida
 
-=============================================================================================================
+================================================================
+
 RPi Spider Drone v0
 A spider-inspired biomimetic drone project using Raspberry Pi 5 with webcam-based vision system.
 Overview
