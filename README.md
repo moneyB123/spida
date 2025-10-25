@@ -7,10 +7,11 @@ RPi Spider Drone v0
 A spider-inspired biomimetic drone project using Raspberry Pi 5 with webcam-based vision system.
 Overview
 This project implements a ground-based autonomous robot inspired by spider locomotion, utilizing a Raspberry Pi 5 as the control system and a webcam for visual perception ("eyes").
+
 Inspiration
 This project was born from multiple sources:
 
-The Cube Spiders: A ResCon supervisor who hung plastic spiders from fishing line in my cubicle, dangling from the ceiling. Their subtle movements and biomechanics sparked the idea of mimicking spider locomotion.
+The Spiders: A ReyRey supervisor who hung plastic spiders with fishing line in my cubicle, dangling from the ceiling.  
 Palmer Luckey on Joe Rogan: The Oculus/Anduril founder's discussion of autonomous defense systems and innovative approaches to military technology inspired the application focus.
 Stingray Biomimetic Drone: Existing military drones modeled after stingrays demonstrated the viability of nature-inspired autonomous systems. If aquatic creatures work, why not terrestrial ones?
 
