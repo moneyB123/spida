@@ -8,7 +8,7 @@ A spider-inspired biomimetic drone project using Raspberry Pi 5 with webcam-base
 Overview
 This project implements a ground-based autonomous robot inspired by spider locomotion, utilizing a Raspberry Pi 5 as the control system and a webcam for visual perception ("eyes").
 
-Inspiration
+Insporation
 This project was born from multiple sources:
 
 The Spiders: A ReyRey supervisor who hung plastic spiders with fishing line in my cubicle, dangling from the ceiling.  
@@ -20,15 +20,17 @@ Components
 
 Hardware:
 
-Raspberry Pi 5
-USB Webcam (Laptop_Integrated_Webcam_FHD)
+brain - Raspberry Pi 5
+eyes - USB Webcam (Laptop_Integrated_Webcam_FHD) 
 Power supply (18650 batteries recommended for mobile deployment)
+body - A Pumpkin 
+legs - Glowsticks + Metal rods 
 
 
 Software:
 
-motion_main.py - Vision system for motion detection and object tracking
-rpi_spida_v0_2_0_software - Core control software for robot movement and autonomy
+rpi_spida - Core control software for robot movement and autonomy
+eyes - motion_main.py - Vision system for motion detection and object tracking
 
 
 
@@ -48,7 +50,7 @@ pip install opencv-python numpy
 
 vlc -I dummy v4l2:///dev/video0 --sout "#transcode{vcodec=h264,vb=800,acodec=mpga,ab=128}:standard{access=http,mux=ts,dst=:8080/stream}" --http-host=0.0.0.0
 
-python3 motion_main.py
+python3 rpi_spida.py
 
 
 Network Configuration
@@ -68,7 +70,7 @@ Applications
 
 Edge AI for surveillance
 Low-cost autonomous ground vehicle prototyping
-GNC system development for aerospace applications
+GNC system development  
 Biomimetic robotics research
 
 Notes
